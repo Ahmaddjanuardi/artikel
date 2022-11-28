@@ -1,11 +1,138 @@
-@extends('templates/layout')
+@extends('template/layout')
 
 @section('main')
-<h2>Artikel 3</h2>
-<img src="{{ URL ('img/pantai.jpg') }}" alt="" style="height: 40%; widht: 50%;">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A diam maecenas sed enim ut. Elementum nibh tellus molestie nunc non blandit massa. Tempor orci eu lobortis elementum. Aliquet risus feugiat in ante metus dictum at tempor commodo. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Id ornare arcu odio ut sem. Donec ultrices tincidunt arcu non sodales neque. Tortor at auctor urna nunc. Rhoncus urna neque viverra justo nec ultrices. Tincidunt nunc pulvinar sapien et ligula. Id diam vel quam elementum pulvinar etiam non quam. Semper risus in hendrerit gravida rutrum quisque non. Mattis enim ut tellus elementum sagittis. A diam maecenas sed enim ut sem viverra aliquet eget.</p>
-<p>Aenean sed adipiscing diam donec adipiscing tristique risus. Malesuada bibendum arcu vitae elementum curabitur vitae. Viverra ipsum nunc aliquet bibendum enim facilisis gravida. Mattis vulputate enim nulla aliquet porttitor lacus luctus. Id interdum velit laoreet id donec. Donec et odio pellentesque diam volutpat commodo sed egestas. Dolor morbi non arcu risus. Neque gravida in fermentum et sollicitudin ac orci phasellus. Tortor at risus viverra adipiscing at in tellus integer. Pulvinar elementum integer enim neque volutpat. Auctor elit sed vulputate mi. Sollicitudin tempor id eu nisl nunc. Hac habitasse platea dictumst vestibulum. Feugiat nisl pretium fusce id velit ut tortor pretium. Auctor eu augue ut lectus arcu bibendum at varius vel. Elementum pulvinar etiam non quam lacus. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan. Eget arcu dictum varius duis at consectetur lorem. Est ante in nibh mauris cursus mattis molestie. Tellus rutrum tellus pellentesque eu tincidunt.</p>
-<p>Non sodales neque sodales ut. Amet purus gravida quis blandit turpis cursus in hac. Auctor elit sed vulputate mi sit amet mauris commodo. Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Tortor condimentum lacinia quis vel eros donec ac odio. Purus ut faucibus pulvinar elementum integer. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Quam adipiscing vitae proin sagittis nisl rhoncus. Tempor id eu nisl nunc mi ipsum faucibus vitae aliquet. Varius morbi enim nunc faucibus a. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Porttitor leo a diam sollicitudin tempor id eu. Dignissim enim sit amet venenatis. Nunc eget lorem dolor sed viverra. Sit amet massa vitae tortor condimentum. Sodales neque sodales ut etiam sit. Semper risus in hendrerit gravida rutrum quisque non. Consectetur lorem donec massa sapien faucibus et molestie ac.</p>
-<p>Duis convallis convallis tellus id interdum velit laoreet id. Eget aliquet nibh praesent tristique. Urna nunc id cursus metus aliquam. Sit amet risus nullam eget felis eget nunc lobortis. Fames ac turpis egestas integer eget aliquet nibh praesent. Erat pellentesque adipiscing commodo elit. Volutpat ac tincidunt vitae semper quis lectus nulla at. Felis eget velit aliquet sagittis id consectetur. Ac turpis egestas integer eget aliquet nibh praesent tristique. Tristique senectus et netus et malesuada fames ac turpis. Proin nibh nisl condimentum id venenatis a condimentum. Eget egestas purus viverra accumsan in nisl nisi.</p>
-<p>Lacus sed viverra tellus in hac habitasse. Dictum at tempor commodo ullamcorper a lacus. In ante metus dictum at tempor. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Massa sapien faucibus et molestie ac feugiat sed. Duis convallis convallis tellus id. Enim neque volutpat ac tincidunt vitae semper quis lectus. Malesuada fames ac turpis egestas. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Sed odio morbi quis commodo odio aenean. Sit amet mauris commodo quis imperdiet. Eget gravida cum sociis natoque penatibus et magnis dis. Non diam phasellus vestibulum lorem sed risus ultricies. Odio ut sem nulla pharetra diam sit. Ultricies integer quis auctor elit. Dui sapien eget mi proin. Tortor condimentum lacinia quis vel eros donec. Ligula ullamcorper malesuada proin libero nunc. Euismod in pellentesque massa placerat.</p>
+<img src="{{ URL ('img/bia.jpg') }}" alt="" class="float-start me-4 rounded" style="height: 357; width: 270px;">
+<h2>Jules Bianchi</h2>
+<p><b>Jules Lucien André Bianchi</b> (pengucapan bahasa Prancis: [ʒyl bjɑ̃ki]; 3 Agustus 1989 – 17 Juli 2015) merupakan seorang pembalap mobil profesional asal Prancis. Ia bergabung
+    bersama tim Marussia F1 sebagai pembalap. Sebelumnya ia pernah bergabung bersama tim Scuderia Ferrari sebagai anggota program pengembangan pembalap muda.</p>
+<p>Pada 5 Oktober 2014, yang bertepatan dengan peringatan Hari Guru Sedunia, selama Grand Prix Jepang di Suzuka, Bianchi kehilangan kendali atas mobilnya dalam kondisi yang sangat basah
+    dan bertabrakan dengan kendaraan pemulihan, ia menderita cedera aksonal difus. Setelah tiba di sebuah rumah sakit lokal dengan ambulans, Bianchi menjalani operasi dan mengalami
+    kondisi koma. Ia kemudian dipindahkan ke sebuah rumah sakit di Prancis, di mana ia tetap koma sampai kematiannya pada tanggal 17 Juli 2015.[3] Bianchi menjadi pembalap Formula Satu pertama
+    yang meninggal sebagai akibat dari kecelakaan selama Grand Prix sejak Ayrton Senna dan Roland Ratzenberger pada tahun 1994.</p>
+<br>
+<div class="hd-table float-end me-2">
+    <table class=" border" width="24em">
+        <tbody>
+            <tr>
+                <th colspan="2" class="infobox-above">
+                    Jules Bianchi
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2" class="infobox-image">
+                    <class="image">
+                        <img src="{{ URL ('img/bia.jpeg') }}" style="height: 357; width: 270px;"></a>
+                        <div class="infobox-caption">
+                            Bianchi pada tahun 2012
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Lahir</th>
+                <td>
+                    3 Agustus 1989, <br>Nice, Prancis
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Meninggal</th>
+                <td>
+                    17 Juli 2015 (umur 25)<br>Nice, Prancis
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2" class="infobox-header" bgcolor="ccccff">
+                    Karier Kejuaran Formula Satu
+                </th>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Kebangsaan</th>
+                <td>
+                    <img src="{{ URL ('img/fr.webp') }}" width="23" height="14">
+                    Francis
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Tahun Aktif</th>
+                <td>2013-2015</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Tim</th>
+                <td>Marussia</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Nomor Mobil</th>
+                <td>5 (pensiun untuk menghormati)</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Jumlah Lomba</th>
+                <td>34 (34 start)</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Juara dunia</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Menang</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Podium</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Total poin</th>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Posisi pole</th>
+                <td>
+                    0
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Lap tercepat</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Lomba pertama</th>
+                <td>
+                    <a href="https://id.wikipedia.org/wiki/Grand_Prix_F1_Australia_2013">Grand Prix Australia 2013</a>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row" class="infobox-label">Lomba Terakhir</th>
+                <td>
+                    <a href="https://id.wikipedia.org/wiki/Grand_Prix_F1_Jepang_2014">Grand Prix Japan 2014</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<h3 style="font-weight: 400;">Kehidupan pribadi</h3>
+<hr>
+<p>Jules Bianchi lahir di Nice, Prancis, ke Philippe dan Christine Bianchi. Dia memiliki dua saudara kandung, saudara Tom dan saudara perempuan Mélanie, telah menjadi ayah baptis pembalap
+    Ferrari saat ini <a href="https://id.wikipedia.org/wiki/Charles_Leclerc">Charles Leclerc</a> dan telah menjalin hubungan jangka panjang dengan pacar Prancis, Camille Marchetti. Di kemudian
+    hari, laporan media juga merujuk pada seorang pacar Jerman, Gina, yang telah pindah ke Nice.</p>
+<p>Bianchi adalah cucu Mauro Bianchi, yang berkompetisi di balap GT selama tahun 1960an dan tiga kejuaraan non-kejuaraan Formula Satu Grand Prix pada tahun 1961. Dia juga adalah kakek dari Lucien, yang berlaga di 19 Formula Satu Grand Prix antara tahun 1959 dan 1968 dan memenangkan 1968 24 Hours of Le Mans, sebelum meninggal dalam pengujian Le Mans tahun berikutnya.</p>
+<p>Pembalap favoritnya adalah Michael Schumacher.</p>
+<br>
+<h3 style="font-weight: 400;">Awal karier</h3>
+<hr>
+<p>Keterpaparan Bianchi terhadap motorsport dimulai sekitar usia 3 tahun melalui karting dan difasilitasi oleh kenyataan bahwa ayahnya memiliki sebuah lagu kart. Sejak usia 17, Bianchi dikelola secara profesional oleh <a href="https://id.wikipedia.org/wiki/Nicolas_Todt">Nicolas Todt</a>.</p>
+<h4>Formula Renault 2.0</h4>
+<p>Pada tahun 2007, Bianchi meninggalkan karting dan berlomba di Championnat de France Formula Renault 2.0 untuk SG Formula, di mana ia finis sebagai juara dengan lima kemenangan. Dia juga berkompetisi di Formula Renault Eurocup, di mana ia memiliki satu posisi terdepan dan satu lap tercepat dalam tiga balapan.</p>
+<h4>Formula 3 Euro</h4>
+<p>Pada akhir 2007, Bianchi menandatangani kontrak dengan ART Grand Prix untuk bersaing di Formula 3 Euro Series. Pada tahun 2008 Bianchi memenangkan Masters of Formula 3 di Zolder, dan juga
+    menempati posisi ketiga di Musim Formula 3 Euro Series 2008.</p>
+<br>
+<h3 style="font-weight: 400;">Kematian</h3>
+<hr>
+<p>Bianchi meninggal dunia pada 17 Juli 2015, yang bertepatan dengan peringatan Hari Raya Idul Fitri 1436 Hijriyah, berusia 25 tahun, dari cedera yang dideritanya pada saat kecelakaan fatal di <a href="https://id.wikipedia.org/wiki/Sirkuit_Internasional_Suzuka">Sirkuit Suzuka</a> sembilan bulan sebelumnya. Kematiannya membuatnya menjadi pembalap Formula Satu pertama yang tewas oleh cedera yang diderita selama Grand Prix sejak
+    <a href="https://id.wikipedia.org/wiki/Ayrton_Senna">Ayrton Senna</a> dan <a href="https://id.wikipedia.org/wiki/Roland_Ratzenberger">Roland Ratzenberger</a> pada <a href="https://id.wikipedia.org/wiki/Kematian_Ayrton_Senna">1994</a>.
+</p>
+<h4>Penghormatan</h4>
+<p>Rue du Sapin, alamat jalan stadion sepak bola <a href="https://id.wikipedia.org/wiki/Allianz_Riviera">Allianz Riviera</a>, diganti namanya untuk menghormati Bianchi pada tahun 2016. <a href="https://id.wikipedia.org/wiki/Charles_Leclerc">Charles Leclerc</a> (anak baptisnya) mengenakan helm penghormatan kepada Bianchi dan ayah Leclerc, Herve di Grand Prix Monako 2019 dengan desain helm Bianchi pada satu sisi, dan ayahnya di sisi lain.</p>
 <a class="btn btn-primary" href="/" role="button">Kembali ke halaman utama</a>@endsection
