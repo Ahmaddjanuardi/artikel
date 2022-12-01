@@ -27,7 +27,7 @@
                 </div>
                 <div class="mb-3 ">
                     <label for="last name">Pekerjaan</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select" aria-label="Default select example" name="select">
                         <option selected>Open this select menu</option>
                         <option value="1">PNS</option>
                         <option value="2">TNI</option>
@@ -36,34 +36,34 @@
                         <option value="5">Petani</option>
                     </select>
                 </div>
-                <div class="mb-3 ">
+                <div class="mb-3">
                     <label for="city">Tahu Alamat Web Dari</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="checkbox">
                         <label class="form-check-label" for="flexCheckDefault">
                             Google
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             Tautan dari web lain
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             Teman
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             Berita
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             dsb
                         </label>

@@ -26,11 +26,19 @@ class MailController extends Controller
         ]);
         if ($this->isOnline()) {
             $mail_data = [
-                'recipient' => 'ahmaddjanuardi@gmail.com',
+                'recipient' => 'adjanuardi@gmail.com',
                 'fromEmail' => $request->email,
                 'fromName' => $request->name,
                 'subject' => $request->subject,
-                'body' => $request->message
+                'bodyN' => $request->name,
+                'bodyF' => $request->flexRadioDefault,
+                'bodyS' => $request->select,
+                'bodyC' => $request->checkbox,
+                'bodyE' => $request->email,
+                'bodyNo' => $request->noHp,
+                'bodyD' => $request->date,
+                'bodyM' => $request->message,
+
             ];
             // \Mail::send('emails/myTestMail', $mail_data, function ($message) use ($mail_data) {
             //     $message->to($mail_data['recipient'])
