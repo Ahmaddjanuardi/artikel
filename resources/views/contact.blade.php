@@ -4,6 +4,17 @@
     <div class="col-md-6">
         <form action="{{route('send.mail')}}" class="shipping p-5" id="formShipping" style="border: 3px solid pink" method="POST">
             @csrf
+
+            @if(Session::has('error'))
+            <div class="alert alert-danger" role="alert">
+                {{Session::get('error')}}
+            </div>
+            @endif
+            @if(Session::has('succes'))
+            <div class="alert alert-success" role="alert">
+                {{Session::get('succes')}}
+            </div>
+            @endif
             <h1 style="text-align: center">Contact me</h1>
             <div class="row">
                 <div class="mb-3 ">
@@ -13,13 +24,13 @@
                 </div>
                 <div class="mb-3 ">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="radio" value="Laki-Laki" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
                             Laki-laki
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <input class="form-check-input" type="radio" name="radio" value="Perempuan" id="flexRadioDefault2">
                         <label class="form-check-label" for="flexRadioDefault2">
                             Perempuan
                         </label>
@@ -29,41 +40,41 @@
                     <label for="last name">Pekerjaan</label>
                     <select class="form-select" aria-label="Default select example" name="select">
                         <option selected>Open this select menu</option>
-                        <option value="1">PNS</option>
-                        <option value="2">TNI</option>
-                        <option value="3">Buruh</option>
-                        <option value="4">Wirausaha</option>
-                        <option value="5">Petani</option>
+                        <option value="PNS">PNS</option>
+                        <option value="TNI">TNI</option>
+                        <option value="Buruh">Buruh</option>
+                        <option value="Wirausaha">Wirausaha</option>
+                        <option value="Petani">Petani</option>
                     </select>
                 </div>
                 <div class="mb-3">
                     <label for="city">Tahu Alamat Web Dari</label>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="checkbox">
+                        <input class="form-check-input" type="checkbox" value="1. Google" id="flexCheckDefault" name="checkbox">
                         <label class="form-check-label" for="flexCheckDefault">
                             Google
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
+                        <input class="form-check-input" type="checkbox" value="2. Tautan dari web lain" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             Tautan dari web lain
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
+                        <input class="form-check-input" type="checkbox" value="3. Teman" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             Teman
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
+                        <input class="form-check-input" type="checkbox" value="4. Berita" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             Berita
                         </label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" name="checkbox">
+                        <input class="form-check-input" type="checkbox" value="5. dsb" id="flexCheckChecked" name="checkbox">
                         <label class="form-check-label" for="flexCheckChecked">
                             dsb
                         </label>

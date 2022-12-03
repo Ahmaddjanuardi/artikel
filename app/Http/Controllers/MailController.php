@@ -31,7 +31,7 @@ class MailController extends Controller
                 'fromName' => $request->name,
                 'subject' => $request->subject,
                 'bodyN' => $request->name,
-                'bodyF' => $request->flexRadioDefault,
+                'bodyF' => $request->radio,
                 'bodyS' => $request->select,
                 'bodyC' => $request->checkbox,
                 'bodyE' => $request->email,
